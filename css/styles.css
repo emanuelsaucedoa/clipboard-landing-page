@@ -348,3 +348,87 @@ body{
     text-align: center;
     line-height: 26px;
 }
+
+.brandsContainer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 110px;
+}
+
+.titleFiveContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleFiveContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.titleFiveContainer h1{
+    font-size: 34px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.titleFiveContainer p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.footerContainer{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 150px;
+}
+
+.footerContainer .footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--dark-grayish-blue);
+}
+
+.footerContainer .footer img{
+    cursor: pointer;
+}
+
+.footerContainer .footer div p{
+    padding-top: 15px;
+    transition: all 250ms;
+}
+
+.footerContainer .footer div p:hover{
+    cursor: pointer;
+    color: var(--strong-cyan);
+    transition: all 250ms;
+}
+
+.footerContainer .footer div img:hover{
+    cursor: pointer;
+}
+
+.footerContainer .footer .installGuide{
+    align-self: flex-start;
+}
+
+.footerContainer .footer .socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
