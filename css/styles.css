@@ -38,3 +38,114 @@ body{
 .header img{
     width: 125px;
 }
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer h1{
+    font-size: 40px;
+    margin-top: -125px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.titleContainer p{
+    text-align: center;
+    line-height: 26px;
+    color: var(--grayish-blue);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.downloadContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.downloadContainer .ios{
+    height: 45px;
+    width: 200px;
+    background-color: var(--strong-cyan);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 0px 1px rgb(35, 160, 141);
+    transition: all 250ms;
+}
+
+.downloadContainer .ios:hover{
+    cursor: pointer;
+    transition: all 250ms;
+    transform: scale(1.025);
+} 
+
+.downloadContainer .mac{
+    height: 45px;
+    width: 200px;
+    background-color: var(--light-blue);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 0px 1px rgb(76, 91, 202);
+    transition: all 250ms;
+}
+
+.downloadContainer .mac:hover{
+    cursor: pointer;
+    transition: all 250ms;
+    transform: scale(1.025);
+}
+
+.titleTwoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleTwoContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleTwoContainer h1{
+    font-size: 34px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.titleTwoContainer p{
+    text-align: center;
+    line-height: 26px;
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
