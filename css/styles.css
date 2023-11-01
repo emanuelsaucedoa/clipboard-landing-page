@@ -244,3 +244,107 @@ body{
     text-align: center;
     line-height: 26px;
 }
+
+.imageDevices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageDevices img{
+    margin-top: 100px;
+}
+
+.titleFourContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleFourContainer h1{
+    font-size: 34px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.titleFourContainer p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.toolsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.toolsContainer .blacklists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.toolsContainer .blacklists h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.toolsContainer .blacklists p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.toolsContainer .plainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolsContainer .plainText h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.toolsContainer .plainText p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.toolsContainer .sneakPreview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolsContainer .sneakPreview h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.toolsContainer .sneakPreview p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 26px;
+}
