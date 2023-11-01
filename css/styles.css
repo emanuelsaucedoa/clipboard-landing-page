@@ -149,3 +149,98 @@ body{
     font-size: 16px;
     margin-bottom: 5px;
 }
+
+.contentContainer{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 100px;
+}
+
+.contentContainer img{
+    width: 700px;
+    object-fit: cover;
+}
+
+.contentContainer .contentDescription{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainer .quickSearch{
+    margin-bottom: 50px;
+}
+
+.contentContainer .icloudSync{
+    margin-bottom: 50px;
+}
+
+.contentDescription .completeHistory{
+    margin-bottom: 50px;
+}
+
+.contentContainer .quickSearch h2{
+    color: var(--dark-grayish-blue);
+    margin-bottom: 10px;
+}
+
+.contentContainer .quickSearch p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: start;
+    line-height: 26px;
+}
+
+.contentContainer .icloudSync h2{
+    color: var(--dark-grayish-blue);
+    margin-bottom: 10px;
+}
+
+.contentContainer .icloudSync p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: start;
+    line-height: 26px;
+}
+
+.contentContainer .completeHistory h2{
+    color: var(--dark-grayish-blue);
+    margin-bottom: 10px;
+}
+
+.contentContainer .completeHistory p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: start;
+    line-height: 26px;
+}
+
+.titleThreeContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleThreeContainer h1{
+    font-size: 34px;
+    margin-top: 225px;
+    margin-bottom: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.titleThreeContainer p{
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 26px;
+}
