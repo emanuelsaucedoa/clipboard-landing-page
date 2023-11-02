@@ -432,3 +432,189 @@ body{
     align-items: flex-start;
     gap: 25px;
 }
+
+@media (max-width: 1200px){
+
+    .headerContainer{
+    background-image: url("../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    }
+
+    .titleContainer h1{
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .titleContainer p{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .downloadContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .downloadContainer .ios{
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .downloadContainer .mac{
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    .titleTwoContainer h1{
+       text-align: center;
+       font-size: 32px;
+    }
+    
+    .titleTwoContainer p{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .contentContainer{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .contentContainer img{
+        width: 350px;
+        margin-top: 250px;
+    }
+    
+    .contentContainer .contentDescription{
+        margin-left: 0px;
+    }
+
+    .contentContainer .contentDescription .quickSearch h2{
+        text-align: center;
+    }
+
+    .contentContainer .contentDescription .quickSearch p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .contentContainer .contentDescription .icloudSync h2{
+        text-align: center;
+    }
+
+    .contentContainer .contentDescription .icloudSync p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .contentContainer .contentDescription .completeHistory h2{
+        text-align: center;
+    }
+
+    .contentContainer .contentDescription .completeHistory p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .titleThreeContainer h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .titleThreeContainer p{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .imageDevices img{
+        width: 350px;
+    }
+
+    .titleFourContainer h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .titleFourContainer p{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .toolsContainer{
+        flex-direction: column;
+    }
+
+    .toolsContainer .blacklists p{
+        font-size: 14px;
+    }
+    
+    .toolsContainer .plainText p{
+        font-size: 14px;
+    }
+    
+    .toolsContainer .sneakPreview p{
+        font-size: 14px;
+    }
+
+    .brandsContainer{
+        margin-top: 150px;
+    }
+
+    .brandsContainer div{
+        flex-direction: column;
+        gap: 75px;
+    }
+
+    .titleFiveContainer h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .titleFiveContainer p{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .footerContainer{
+        width: 100vw;
+        min-height: 550px;
+    }
+
+    .footerContainer .footer{
+        flex-direction: column;
+    }
+
+    .footerContainer .footer{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-grayish-blue);
+    }
+    
+    .footerContainer .footer img{
+        cursor: pointer;
+        margin-bottom: 25px;
+    }
+    
+    .footerContainer .footer div p{
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .footerContainer .footer .installGuide{
+        align-self: center;
+    }
+
+    .footerContainer .footer .socialIcons{
+        margin-top: 25px;
+    }
+
+}
